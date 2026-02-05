@@ -134,7 +134,7 @@ namespace GC{
   }
 
   bool cuAdaptiveTimeControl2D::is_end(){
-    return current_ >= end_;
+    return current_ >= end_ - 1e-10;
   }
 
   Scalar cuAdaptiveTimeControl2D::current(){
