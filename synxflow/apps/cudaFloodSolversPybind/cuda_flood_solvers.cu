@@ -111,7 +111,7 @@ int run(const char* work_dir){
   Scalar t_current = 0.0;
   Scalar t_out = 0.0;
   Scalar t_all = 0.0;
-  Scalar t_small = 1e-10;
+  Scalar t_small = 1e-9;
 
   //*******************Read times setup value from file
 
